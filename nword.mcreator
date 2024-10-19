@@ -1,0 +1,177 @@
+{
+  "mod_elements": [
+    {
+      "name": "Underworld",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "underworld",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nword/block/UnderworldPortalBlock.java",
+          "src/main/resources/data/nword/dimension/underworld.json",
+          "src/main/resources/assets/nword/models/block/underworld_portal_ew.json",
+          "src/main/resources/assets/nword/models/item/underworld.json",
+          "src/main/java/net/mcreator/nword/item/UnderworldItem.java",
+          "src/main/java/net/mcreator/nword/world/teleporter/UnderworldPortalShape.java",
+          "src/main/resources/assets/nword/blockstates/underworld_portal.json",
+          "src/main/resources/assets/nword/models/block/underworld_portal_ns.json",
+          "src/main/java/net/mcreator/nword/world/dimension/UnderworldDimension.java",
+          "src/main/java/net/mcreator/nword/world/teleporter/UnderworldTeleporter.java",
+          "src/main/resources/data/nword/dimension_type/underworld.json"
+        ]
+      }
+    },
+    {
+      "name": "Undeadblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "undeadblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nword/loot_tables/blocks/undeadblock.json",
+          "src/main/java/net/mcreator/nword/block/UndeadblockBlock.java",
+          "src/main/resources/assets/nword/blockstates/undeadblock.json",
+          "src/main/resources/assets/nword/models/item/undeadblock.json",
+          "src/main/resources/assets/nword/models/block/undeadblock.json"
+        ]
+      }
+    },
+    {
+      "name": "Undeadbloc",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "undeadbloc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nword/models/block/undeadbloc_inner.json",
+          "src/main/java/net/mcreator/nword/block/UndeadblocBlock.java",
+          "src/main/resources/assets/nword/models/block/undeadbloc.json",
+          "src/main/resources/assets/nword/models/block/undeadbloc_outer.json",
+          "src/main/resources/assets/nword/models/item/undeadbloc.json",
+          "src/main/resources/data/nword/loot_tables/blocks/undeadbloc.json",
+          "src/main/resources/assets/nword/blockstates/undeadbloc.json"
+        ]
+      }
+    },
+    {
+      "name": "Undeadblslb",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "undeadblslb",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nword/models/item/undeadblslb.json",
+          "src/main/resources/assets/nword/models/block/undeadblslb_top.json",
+          "src/main/resources/data/nword/loot_tables/blocks/undeadblslb.json",
+          "src/main/resources/assets/nword/blockstates/undeadblslb.json",
+          "src/main/java/net/mcreator/nword/block/UndeadblslbBlock.java",
+          "src/main/resources/assets/nword/models/block/undeadblslb.json",
+          "src/main/resources/assets/nword/models/block/undeadblslb_full.json"
+        ]
+      }
+    },
+    {
+      "name": "UDworld",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "u_dworld",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Holly",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holly",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nword/models/item/holly_bucket.json",
+          "src/main/java/net/mcreator/nword/fluid/HollyFluid.java",
+          "src/main/java/net/mcreator/nword/fluid/types/HollyFluidType.java",
+          "src/main/resources/assets/nword/blockstates/holly.json",
+          "src/main/java/net/mcreator/nword/block/HollyBlock.java",
+          "src/main/resources/assets/nword/models/block/holly.json",
+          "src/main/java/net/mcreator/nword/item/HollyItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Caveclimber",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caveclimber",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nword/forge/biome_modifier/caveclimber_biome_modifier.json",
+          "src/main/resources/assets/nword/models/item/caveclimber_spawn_egg.json",
+          "src/main/java/net/mcreator/nword/client/renderer/CaveclimberRenderer.java",
+          "src/main/java/net/mcreator/nword/entity/model/CaveclimberModel.java",
+          "src/main/java/net/mcreator/nword/entity/CaveclimberEntity.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.WATER"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:Undeadblslb"
+    ],
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:Holly"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:Undeadbloc"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.nword.undeadblock": "Undead block",
+      "item.nword.caveclimber_spawn_egg": "Caveclimber Spawn Egg",
+      "block.nword.undeadblslb": "Undeadblslb",
+      "block.nword.holly": "Holly",
+      "item.nword.holly_bucket": "Holly Bucket",
+      "entity.nword.caveclimber": "Caveclimber",
+      "item.nword.underworld": "Underworld Portal Igniter",
+      "block.nword.undeadbloc": "Undeadbloc",
+      "item_group.nword.u_dworld": "U Dworld",
+      "fluid.nword.holly": "Holly"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "nword",
+    "modName": "nword",
+    "version": "1.0.0",
+    "author": "maciek, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "mcreator_link",
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.nword"
+  },
+  "mcreatorVersion": 202400340615
+}

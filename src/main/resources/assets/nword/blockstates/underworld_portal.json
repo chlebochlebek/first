@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "nword:block/underworld_portal_ew"
+    },
+    "axis=x": {
+      "model": "nword:block/underworld_portal_ns"
+    }
+  }
+}

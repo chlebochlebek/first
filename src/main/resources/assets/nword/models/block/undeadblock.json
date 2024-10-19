@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "nword:block/newbircks",
+    "up": "nword:block/newbircks",
+    "north": "nword:block/newbircks",
+    "east": "nword:block/newbircks",
+    "south": "nword:block/newbircks",
+    "west": "nword:block/newbircks",
+    "particle": "nword:block/newbircks"
+  },
+  "render_type": "solid"
+}

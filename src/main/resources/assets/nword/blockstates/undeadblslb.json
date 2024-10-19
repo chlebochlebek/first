@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "nword:block/undeadblslb"
+    },
+    "type=top": {
+      "model": "nword:block/undeadblslb_top"
+    },
+    "type=double": {
+      "model": "nword:block/undeadblslb_full"
+    }
+  }
+}
